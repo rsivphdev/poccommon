@@ -6,7 +6,6 @@ import java.util.List;
  * The Class DisputeTicketBundle.
  * @author HLiang
  */
-//@Data
 public class DisputeTicketBundle {
 	
 	/** The dispute ID. */
