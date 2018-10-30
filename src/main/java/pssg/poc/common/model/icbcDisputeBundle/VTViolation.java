@@ -7,13 +7,13 @@ package pssg.poc.common.model.icbcDisputeBundle;
 public class VTViolation {
 
     /** The count number. */
-    private Number count_number  = null;
+    private int count_number;
     
     /** The act. */
     private String act  = null;
     
     /** The ticketed amount. */
-    private Number ticketed_amount  = null;
+    private double ticketed_amount;
     
     /** The compressed section. */
     private String compressed_section  = null;
@@ -21,25 +21,54 @@ public class VTViolation {
     /** The disputing allegation. */
     private Boolean disputing_allegation  = null;
     
-    /**
-     * Gets the count number.
-     *
-     * @return the count number
-     */
-    public Number getCount_number() {
-        return count_number;
-    }
+    
 
-    /**
-     * Sets the count number.
-     *
-     * @param count_number the new count number
-     */
-    public void setCount_number(Number count_number) {
-        this.count_number = count_number;
-    }
+	/**
+	 * Gets the count number.
+	 *
+	 * @return the count number
+	 */
+	public int getCount_number() {
+		return count_number;
+	}
 
-    /**
+	/**
+	 * Sets the count number.
+	 *
+	 * @param count_number the new count number
+	 */
+	public void setCount_number(int count_number) {
+		this.count_number = count_number;
+	}
+
+	/**
+	 * Gets the ticketed amount.
+	 *
+	 * @return the ticketed amount
+	 */
+	public double getTicketed_amount() {
+		return ticketed_amount;
+	}
+
+	/**
+	 * Sets the ticketed amount.
+	 *
+	 * @param ticketed_amount the new ticketed amount
+	 */
+	public void setTicketed_amount(double ticketed_amount) {
+		this.ticketed_amount = ticketed_amount;
+	}
+
+	/**
+	 * Sets the ticketed amount.
+	 *
+	 * @param ticketed_amount the new ticketed amount
+	 */
+	public void setTicketed_amount(Double ticketed_amount) {
+		this.ticketed_amount = ticketed_amount;
+	}
+
+	/**
      * Gets the act.
      *
      * @return the act
@@ -57,26 +86,7 @@ public class VTViolation {
         this.act = act;
     }
 
-    
-    /**
-     * Gets the ticketed amount.
-     *
-     * @return the ticketed amount
-     */
-    public Number getTicketed_amount() {
-        return ticketed_amount;
-    }
-
-    /**
-     * Sets the ticketed amount.
-     *
-     * @param ticketed_amount the new ticketed amount
-     */
-    public void setTicketed_amount(Number ticketed_amount) {
-        this.ticketed_amount = ticketed_amount;
-    }
-
-    
+      
     /**
      * Gets the compressed section.
      *
