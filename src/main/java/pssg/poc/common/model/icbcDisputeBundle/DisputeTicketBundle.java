@@ -1,9 +1,7 @@
-package pssg.poc.common.model.justinDispute;
-
-import java.util.List;
+package pssg.poc.common.model.icbcDisputeBundle;
 
 /**
- * The Class DisputeTicketBundle.
+ * The Class VTDisputeTicket.
  * @author HLiang
  */
 public class DisputeTicketBundle {
@@ -68,30 +66,12 @@ public class DisputeTicketBundle {
     /** The count number. */
     private int count_number;
     
-    /** The icbc count act regulation. */
-    private String icbc_count_act_regulation;
+    /** The count act regulation. */
+    private String count_act_regulation;
     
-    /** The icbc compressed section. */
-    private String icbc_compressed_section;
+    /** The compressed section. */
+    private String compressed_section;
     
-    /** The csb count act regulation. */
-    private String csb_count_act_regulation;
-    
-    /** The section. */
-	private String csb_section;
-	
-	/** The sub section. */
-	private String csb_sub_section;
-	
-	/** The clause. */
-	private String csb_clause;
-	
-	/** The paragraph. */
-	private String csb_paragraph;
-	
-	/** The sub paragraph. */
-	private String csb_sub_paragraph;
-	
     /** The ticketed amount. */
     private double ticketed_amount;
     
@@ -127,22 +107,6 @@ public class DisputeTicketBundle {
 	
 	/** The evt xml. */
     private String evt_xml;
-    
-    /** The accident. */
-    private boolean accident;
-    
-    /** The enforcement officer 1 name. */
-    private String enforcement_officer1_name;
-    
-    /** The witnessing officer id. */
-    private String witnessing_officer_id;
-    
-    /** The cos form number. */
-    private String cos_form_number;
-    
-    /** The evt form number. */
-    private String evt_form_number;
-    
 
 	/**
 	 * Gets the contravention number.
@@ -755,240 +719,7 @@ public class DisputeTicketBundle {
 	public void setEvt_xml(String evt_xml) {
 		this.evt_xml = evt_xml;
 	}
-
-	/**
-	 * Gets the icbc count act regulation.
-	 *
-	 * @return the icbc count act regulation
-	 */
-	public String getIcbc_count_act_regulation() {
-		return icbc_count_act_regulation;
-	}
-
-	/**
-	 * Sets the icbc count act regulation.
-	 *
-	 * @param icbc_count_act_regulation the new icbc count act regulation
-	 */
-	public void setIcbc_count_act_regulation(String icbc_count_act_regulation) {
-		this.icbc_count_act_regulation = icbc_count_act_regulation;
-	}
-
-	/**
-	 * Gets the icbc compressed section.
-	 *
-	 * @return the icbc compressed section
-	 */
-	public String getIcbc_compressed_section() {
-		return icbc_compressed_section;
-	}
-
-	/**
-	 * Sets the icbc compressed section.
-	 *
-	 * @param icbc_compressed_section the new icbc compressed section
-	 */
-	public void setIcbc_compressed_section(String icbc_compressed_section) {
-		this.icbc_compressed_section = icbc_compressed_section;
-	}
-
-	/**
-	 * Gets the csb count act regulation.
-	 *
-	 * @return the csb count act regulation
-	 */
-	public String getCsb_count_act_regulation() {
-		return csb_count_act_regulation;
-	}
-
-	/**
-	 * Sets the csb count act regulation.
-	 *
-	 * @param csb_count_act_regulation the new csb count act regulation
-	 */
-	public void setCsb_count_act_regulation(String csb_count_act_regulation) {
-		this.csb_count_act_regulation = csb_count_act_regulation;
-	}
-
-	/**
-	 * Gets the csb section.
-	 *
-	 * @return the csb section
-	 */
-	public String getCsb_section() {
-		return csb_section;
-	}
-
-	/**
-	 * Sets the csb section.
-	 *
-	 * @param csb_section the new csb section
-	 */
-	public void setCsb_section(String csb_section) {
-		this.csb_section = csb_section;
-	}
-
-	/**
-	 * Gets the csb sub section.
-	 *
-	 * @return the csb sub section
-	 */
-	public String getCsb_sub_section() {
-		return csb_sub_section;
-	}
-
-	/**
-	 * Sets the csb sub section.
-	 *
-	 * @param csb_sub_section the new csb sub section
-	 */
-	public void setCsb_sub_section(String csb_sub_section) {
-		this.csb_sub_section = csb_sub_section;
-	}
-
-	/**
-	 * Gets the csb clause.
-	 *
-	 * @return the csb clause
-	 */
-	public String getCsb_clause() {
-		return csb_clause;
-	}
-
-	/**
-	 * Sets the csb clause.
-	 *
-	 * @param csb_clause the new csb clause
-	 */
-	public void setCsb_clause(String csb_clause) {
-		this.csb_clause = csb_clause;
-	}
-
-	/**
-	 * Gets the csb paragraph.
-	 *
-	 * @return the csb paragraph
-	 */
-	public String getCsb_paragraph() {
-		return csb_paragraph;
-	}
-
-	/**
-	 * Sets the csb paragraph.
-	 *
-	 * @param csb_paragraph the new csb paragraph
-	 */
-	public void setCsb_paragraph(String csb_paragraph) {
-		this.csb_paragraph = csb_paragraph;
-	}
-
-	/**
-	 * Gets the csb sub paragraph.
-	 *
-	 * @return the csb sub paragraph
-	 */
-	public String getCsb_sub_paragraph() {
-		return csb_sub_paragraph;
-	}
-
-	/**
-	 * Sets the csb sub paragraph.
-	 *
-	 * @param csb_sub_paragraph the new csb sub paragraph
-	 */
-	public void setCsb_sub_paragraph(String csb_sub_paragraph) {
-		this.csb_sub_paragraph = csb_sub_paragraph;
-	}
-
-	/**
-	 * Checks if is accident.
-	 *
-	 * @return true, if is accident
-	 */
-	public boolean isAccident() {
-		return accident;
-	}
-
-	/**
-	 * Sets the accident.
-	 *
-	 * @param accident the new accident
-	 */
-	public void setAccident(boolean accident) {
-		this.accident = accident;
-	}
-
-	/**
-	 * Gets the enforcement officer 1 name.
-	 *
-	 * @return the enforcement officer 1 name
-	 */
-	public String getEnforcement_officer1_name() {
-		return enforcement_officer1_name;
-	}
-
-	/**
-	 * Sets the enforcement officer 1 name.
-	 *
-	 * @param enforcement_officer1_name the new enforcement officer 1 name
-	 */
-	public void setEnforcement_officer1_name(String enforcement_officer1_name) {
-		this.enforcement_officer1_name = enforcement_officer1_name;
-	}
-
-	/**
-	 * Gets the witnessing officer id.
-	 *
-	 * @return the witnessing officer id
-	 */
-	public String getWitnessing_officer_id() {
-		return witnessing_officer_id;
-	}
-
-	/**
-	 * Sets the witnessing officer id.
-	 *
-	 * @param witnessing_officer_id the new witnessing officer id
-	 */
-	public void setWitnessing_officer_id(String witnessing_officer_id) {
-		this.witnessing_officer_id = witnessing_officer_id;
-	}
-
-	/**
-	 * Gets the cos form number.
-	 *
-	 * @return the cos form number
-	 */
-	public String getCos_form_number() {
-		return cos_form_number;
-	}
-
-	/**
-	 * Sets the cos form number.
-	 *
-	 * @param cos_form_number the new cos form number
-	 */
-	public void setCos_form_number(String cos_form_number) {
-		this.cos_form_number = cos_form_number;
-	}
-
-	/**
-	 * Gets the evt form number.
-	 *
-	 * @return the evt form number
-	 */
-	public String getEvt_form_number() {
-		return evt_form_number;
-	}
-
-	/**
-	 * Sets the evt form number.
-	 *
-	 * @param evt_form_number the new evt form number
-	 */
-	public void setEvt_form_number(String evt_form_number) {
-		this.evt_form_number = evt_form_number;
-	}
     
-	
+    
+    
 }
