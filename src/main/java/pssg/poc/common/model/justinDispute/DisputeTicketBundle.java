@@ -1,7 +1,5 @@
 package pssg.poc.common.model.justinDispute;
 
-import java.util.List;
-
 /**
  * The Class DisputeTicketBundle.
  * @author HLiang
@@ -502,42 +500,6 @@ public class DisputeTicketBundle {
 	 */
 	public void setCount_number(int count_number) {
 		this.count_number = count_number;
-	}
-
-	/**
-	 * Gets the count act regulation.
-	 *
-	 * @return the count act regulation
-	 */
-	public String getCount_act_regulation() {
-		return count_act_regulation;
-	}
-
-	/**
-	 * Sets the count act regulation.
-	 *
-	 * @param count_act_regulation the new count act regulation
-	 */
-	public void setCount_act_regulation(String count_act_regulation) {
-		this.count_act_regulation = count_act_regulation;
-	}
-
-	/**
-	 * Gets the compressed section.
-	 *
-	 * @return the compressed section
-	 */
-	public String getCompressed_section() {
-		return compressed_section;
-	}
-
-	/**
-	 * Sets the compressed section.
-	 *
-	 * @param compressed_section the new compressed section
-	 */
-	public void setCompressed_section(String compressed_section) {
-		this.compressed_section = compressed_section;
 	}
 
 	/**
