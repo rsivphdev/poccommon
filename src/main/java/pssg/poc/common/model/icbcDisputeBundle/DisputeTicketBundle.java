@@ -18,11 +18,11 @@ public class DisputeTicketBundle {
     /** The surname. */
     private String surname;
 	
-	/** The givenname 1. */
-	private String givenname1;
+	/** The given_name 1. */
+	private String given_name1;
 	
-	/** The givenname 2. */
-	private String givenname2;
+	/** The given_name 2. */
+	private String given_name2;
 	
 	/** The dl number. */
 	private String dl_number;
@@ -180,40 +180,42 @@ public class DisputeTicketBundle {
 		this.surname = surname;
 	}
 
+	
+
 	/**
-	 * Gets the givenname 1.
+	 * Gets the given name 1.
 	 *
-	 * @return the givenname 1
+	 * @return the given name 1
 	 */
-	public String getGivenname1() {
-		return givenname1;
+	public String getGiven_name1() {
+		return given_name1;
 	}
 
 	/**
-	 * Sets the givenname 1.
+	 * Sets the given name 1.
 	 *
-	 * @param givenname1 the new givenname 1
+	 * @param given_name1 the new given name 1
 	 */
-	public void setGivenname1(String givenname1) {
-		this.givenname1 = givenname1;
+	public void setGiven_name1(String given_name1) {
+		this.given_name1 = given_name1;
 	}
 
 	/**
-	 * Gets the givenname 2.
+	 * Gets the given name 2.
 	 *
-	 * @return the givenname 2
+	 * @return the given name 2
 	 */
-	public String getGivenname2() {
-		return givenname2;
+	public String getGiven_name2() {
+		return given_name2;
 	}
 
 	/**
-	 * Sets the givenname 2.
+	 * Sets the given name 2.
 	 *
-	 * @param givenname2 the new givenname 2
+	 * @param given_name2 the new given name 2
 	 */
-	public void setGivenname2(String givenname2) {
-		this.givenname2 = givenname2;
+	public void setGiven_name2(String given_name2) {
+		this.given_name2 = given_name2;
 	}
 
 	/**
