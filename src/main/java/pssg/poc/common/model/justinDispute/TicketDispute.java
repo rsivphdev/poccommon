@@ -4,7 +4,7 @@ package pssg.poc.common.model.justinDispute;
  * The Class DisputeTicketBundle.
  * @author HLiang
  */
-public class DisputeTicketBundle {
+public class TicketDispute {
 	
 	/** The contravention number. */
 	private String contravention_number;
