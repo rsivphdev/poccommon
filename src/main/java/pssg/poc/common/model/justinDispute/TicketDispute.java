@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package pssg.poc.common.model.justinDispute;
 
 /**
@@ -134,6 +137,9 @@ public class TicketDispute {
     
     /** The witnessing officer id. */
     private String witnessing_officer_id;
+    
+    /** The witnessing officer name. */
+    private String witnessing_officer_name;
     
     /** The cos form number. */
     private String cos_form_number;
@@ -953,6 +959,25 @@ public class TicketDispute {
 	public void setEvt_form_number(String evt_form_number) {
 		this.evt_form_number = evt_form_number;
 	}
+
+	/**
+	 * Gets the witnessing officer name.
+	 *
+	 * @return the witnessing officer name
+	 */
+	public String getWitnessing_officer_name() {
+		return witnessing_officer_name;
+	}
+
+	/**
+	 * Sets the witnessing officer name.
+	 *
+	 * @param witnessing_officer_name the new witnessing officer name
+	 */
+	public void setWitnessing_officer_name(String witnessing_officer_name) {
+		this.witnessing_officer_name = witnessing_officer_name;
+	}
     
+	
 	
 }
