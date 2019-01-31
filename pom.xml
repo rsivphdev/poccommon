@@ -3,7 +3,7 @@
 
   <groupId>com.github.rsivphdev</groupId>
   <artifactId>poccommon</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>api-v2-SNAPSHOT</version>
   
   <name>model</name>
   <description>Common data models for CSB prototype</description>
