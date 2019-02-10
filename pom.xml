@@ -42,11 +42,10 @@
 			<plugin>
 	            <groupId>org.springframework.boot</groupId>
 	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <!-- Need to skip repackage, so the the classes in the final jar can be found by referenced application -->
 	            <executions>
 	                <execution>
-	                    <goals>
-	                        <goal>repackage</goal>
-	                    </goals>
+	                    <id>repackage</id>
 	                    <configuration>
 	                        <skip>true</skip>
 	                    </configuration>
