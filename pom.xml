@@ -12,6 +12,8 @@
 	<artifactId>model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>model</name>
+	<packaging>jar</packaging>
+	
 	<description>Common data models for CSB prototype</description>
 
 	<properties>
@@ -38,9 +40,19 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <executions>
+	                <execution>
+	                    <goals>
+	                        <goal>repackage</goal>
+	                    </goals>
+	                    <configuration>
+	                        <skip>true</skip>
+	                    </configuration>
+	                </execution>
+	            </executions>
+	        </plugin>
 		</plugins>
 	</build>
 
