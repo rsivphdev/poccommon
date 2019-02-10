@@ -12,7 +12,7 @@
 	<artifactId>model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>model</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Common data models for CSB prototype</description>
 
 	<properties>
 		<java.version>1.8</java.version>
