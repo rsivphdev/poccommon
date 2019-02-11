@@ -13,8 +13,8 @@ import com.zaxxer.hikari.HikariDataSource;
  * The Class DBConfiguration.
  * @author HLiang
  */
-@Configuration
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+//@Configuration
+//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 public class DBConfiguration {
 	
     /**
@@ -22,12 +22,12 @@ public class DBConfiguration {
      *
      * @param properties the properties
      * @return the hikari data source
-     */
+     
     @Bean
     @ConfigurationProperties("spring.datasource")
     public HikariDataSource dataSource(DataSourceProperties properties) {
         return properties.initializeDataSourceBuilder().type(HikariDataSource.class).build();
-    }
+    }*/
 
 	
 }
