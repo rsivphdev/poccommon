@@ -1,4 +1,4 @@
-package pssg.poc.common.model.error;
+package pssg.poc.common.model.internal;
 
 import java.time.LocalDateTime;
 

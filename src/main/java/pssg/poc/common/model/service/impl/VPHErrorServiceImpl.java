@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 import pssg.poc.common.model.dataaccess.entity.EtkErrorEntity;
 import pssg.poc.common.model.dataaccess.repository.VPHErrorsRepository;
-import pssg.poc.common.model.error.VPHError;
+import pssg.poc.common.model.internal.VPHError;
 import pssg.poc.common.model.mapper.VPHErrorMapper;
 
 

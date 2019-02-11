@@ -11,7 +11,7 @@ import pssg.poc.common.model.dataaccess.entity.EtkErrorEntity;
 import pssg.poc.common.model.enums.EnumErrorCategory;
 import pssg.poc.common.model.enums.EnumErrorSeverity;
 import pssg.poc.common.model.enums.EnumErrorStatus;
-import pssg.poc.common.model.error.VPHError;
+import pssg.poc.common.model.internal.VPHError;
 
 /**
  * The Class VPHErrorMapper.
