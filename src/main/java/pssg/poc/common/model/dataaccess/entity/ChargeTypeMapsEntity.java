@@ -14,7 +14,8 @@ import javax.persistence.Table;
  * @author HLiang
  */
 @Entity
-@Table(name = "CHARGE_TYPE_MAPS")
+//@Table(name = "CHARGE_TYPE_MAPS")
+@Table(name = "charge_type_maps")
 public class ChargeTypeMapsEntity implements Serializable{
 	/**
 	 * 
