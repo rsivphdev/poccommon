@@ -41,7 +41,6 @@ public class EtkErrorEntity implements Serializable {
 	private String ERROR_STATUS_CD;
 	
 	/** The create DT. */
-	@Column(name = "RECEIVED_DTM")
 	@Basic
 	private LocalDateTime RECEIVED_DTM;
 	
