@@ -1,5 +1,6 @@
 package pssg.poc.common.model.mapper;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -78,6 +79,8 @@ public class VPHErrorMapper {
 		etkErrorEntity.setPROCESS_NO(error.getCorrelationProcessID());
 		etkErrorEntity.setSERVICE_NM(error.getErrorSource());
 		etkErrorEntity.setTICKET_NO(error.getCorrelationTicketNumber());
+		etkErrorEntity.setENT_DTM(LocalDateTime.now());
+		etkErrorEntity.setRECEIVED_DTM(LocalDateTime.now());
 		return etkErrorEntity;
 	}
 	
